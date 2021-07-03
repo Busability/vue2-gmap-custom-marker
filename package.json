@@ -1,6 +1,6 @@
 {
-  "name": "vue2-gmap-custom-marker",
-  "version": "6.0.1",
+  "name": "@busability/vue2-gmap-custom-marker",
+  "version": "0.0.1",
   "description": "vue 2 google map custom marker component allowing display custom html content on google map using gmap-vue",
   "main": "gmap-custom-marker.vue",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eregnier/vue2-gmap-custom-marker.git"
+    "url": "git+https://github.com/Busability/vue2-gmap-custom-marker.git"
   },
   "keywords": [
     "vue",
@@ -21,11 +21,11 @@
   "author": "Eric Régnier",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/eregnier/vue2-gmap-custom-marker/issues"
+    "url": "https://github.com/Busability/vue2-gmap-custom-marker/issues"
   },
-  "homepage": "https://github.com/eregnier/vue2-gmap-custom-marker#readme",
+  "homepage": "https://github.com/Busability/vue2-gmap-custom-marker#readme",
   "dependencies": {
-    "gmap-vue": "git+https://github.com/Busability/vue2-google-maps.git",
+    "gmap-vue": "@busability/vue2-google-maps",
     "vue": "^2.x"
   }
 }
