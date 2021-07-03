@@ -4,7 +4,7 @@
   </div>
 </template>
 <script>
-  import * as VueGoogleMaps from "gmap-vue";
+  import * as VueGoogleMaps from "@busability/vue2-google-maps";
   export default {
     mixins: [VueGoogleMaps.MapElementMixin],
     props: {

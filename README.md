@@ -6,10 +6,8 @@ This component is an adaptation of the Google Map V3 overlay code sample with so
 ## /!\ important note
 
 This project is originally a plugin for [vue-google-maps](https://github.com/xkjyeah/vue-google-maps).
-Now this project seems no more maintained and a maintained [fork](https://github.com/diegoazh/gmap-vue) has started, As this is a fork, this plugin should work on it seeminglessly. The demo for this project started using this project on 2020-11-10.
+Now this project seems no more maintained and a maintained [fork](https://github.com/Busability/vue2-google-maps) has started, As this is a fork, this plugin should work on it seeminglessly. The demo for this project started using this project on 2020-11-10.
 read [this](https://github.com/xkjyeah/vue-google-maps#attention) for more information about this.
-
-You might force the 5.6.2 version in your package.json for this plugin to keep compatibility until you want to switch to gmap-vue.
 
 For those that use clusters with this plugin, the new release might break things. For this plugin website demo, I had to create [this folder](https://github.com/eregnier/vue2-gmap-custom-marker-demo/tree/master/public/images) that contains clusters images the clusters uses in vue-gmap. In case you have troubles with this, just create the same folder with the images from the link above in public foler of your vue project (or served in `/images/m1.png` for exemples depending on you webserver configuration.)
 
@@ -135,7 +133,7 @@ You can use cluster marker folowing the guide below:
 
 ```javascript
 // Using Cluster requires marker-clusterer-plus to be installed.
-import GmapCluster from "gmap-vue/dist/components/cluster";
+import GmapCluster from "@busability/vue2-google-maps/dist/components/cluster";
 
 // Note: the name "cluster" below is the one to use in the template tags
 Vue.component("cluster", GmapCluster);
