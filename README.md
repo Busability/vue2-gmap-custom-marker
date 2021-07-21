@@ -3,7 +3,16 @@
 This component allows you to display custom HTML content on the map using Overlay.
 This component is an adaptation of the Google Map V3 overlay code sample with some great ideas from [angularjs google map](https://ngmap.github.io/) from this [component](https://github.com/allenhwkim/angularjs-google-maps/blob/master/directives/custom-marker.js).
 
-## /!\ important note
+## Manual package publishing on NPM registry
+
+This should be avoided - there is an automated workflow which will publish a new version of the package on every push to main branch.
+
+```bash
+npm login # using your own credentials
+npm publish --access public
+```
+
+## Important note
 
 This project is originally a plugin for [vue-google-maps](https://github.com/xkjyeah/vue-google-maps).
 Now this project seems no more maintained and a maintained [fork](https://github.com/Busability/vue2-google-maps) has started, As this is a fork, this plugin should work on it seeminglessly. The demo for this project started using this project on 2020-11-10.
